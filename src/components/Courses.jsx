@@ -9,6 +9,7 @@ const Courses = () => {
             duration: "2 Weeks",
             level: "Beginner",
             price: "₹500",
+            regLink: "https://wa.me/918247223929?text=Hi!%20I%20want%20to%20register%20for%20Web%20Development%20Fundamentals",
             pdfLink: "/pdf/web-dev-fundamentals.pdf" // Add PDF link for each course
         },
         {
@@ -18,6 +19,7 @@ const Courses = () => {
             duration: "2 Weeks",
             level: "Beginner",
             price: "₹500",
+            regLink: "https://wa.me/918247223929?text=Hi!%20I%20want%20to%20register%20for%20Python%20Programming",
             pdfLink: "/pdf/python-programming.pdf"
         },
         {
@@ -27,6 +29,7 @@ const Courses = () => {
             duration: "4 Weeks",
             level: "Beginner",
             price: "₹500",
+            regLink: "https://wa.me/918247223929?text=Hi!%20I%20want%20to%20register%20for%20Web%20to%20Python",
             pdfLink: "/pdf/web-to-python.pdf"
         },
         {
@@ -36,6 +39,7 @@ const Courses = () => {
             duration: "Flexible",
             level: "All Levels",
             price: "₹600",
+            regLink: "https://wa.me/918247223929?text=Hi!%20I%20want%20to%20Design%20my%20own%20Course",
             // pdfLink: "/pdf/design-your-own-course.pdf"
         }
 
@@ -74,7 +78,7 @@ const Courses = () => {
                                         </a>}
                                         <span className="course-price">{course.price}</span>
                                     </div>
-                                    <a href="#register" className="btn enroll-btn">Enroll Now</a>
+                                    <a href={course.regLink} className="btn enroll-btn">Enroll Now</a>
                                 </div>
                             </div>
                         </div>
