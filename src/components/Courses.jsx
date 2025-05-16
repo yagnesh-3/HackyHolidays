@@ -10,7 +10,7 @@ const Courses = () => {
             level: "Beginner",
             price: "₹500",
             regLink: "https://wa.me/918247223929?text=Hi!%20I%20want%20to%20register%20for%20Web%20Development%20Fundamentals",
-            pdfLink: "/pdf/web-dev-fundamentals.pdf" // Add PDF link for each course
+            pdfLink: "/Summer_Coding_Camp_Schedules.pdf" // Add PDF link for each course
         },
         {
             image: "https://images.unsplash.com/photo-1542903660-eedba2cda47e?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
@@ -20,7 +20,7 @@ const Courses = () => {
             level: "Beginner",
             price: "₹500",
             regLink: "https://wa.me/918247223929?text=Hi!%20I%20want%20to%20register%20for%20Python%20Programming",
-            pdfLink: "/pdf/python-programming.pdf"
+            pdfLink: "/Summer_Coding_Camp_Schedules.pdf"
         },
         {
             image: "https://images.unsplash.com/photo-1542626991-cbc4e32524cc?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
@@ -30,7 +30,7 @@ const Courses = () => {
             level: "Beginner",
             price: "₹500",
             regLink: "https://wa.me/918247223929?text=Hi!%20I%20want%20to%20register%20for%20Web%20to%20Python",
-            pdfLink: "/pdf/web-to-python.pdf"
+            pdfLink: "/Summer_Coding_Camp_Schedules.pdf"
         },
         {
             image: "https://images.unsplash.com/photo-1581090700227-1e8e48a9fddb?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
